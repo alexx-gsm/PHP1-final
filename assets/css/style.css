@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+.wrapper {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.navbar {
+    border-radius: 0;
+}
+.main-slider {
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    max-width: 800px;
+    text-align: center;
+}
+img .img-last {
+    width: 100%;
+}
+figure {
+    text-align: center;
+}
+.recent-images figcaption {
+    text-decoration: none;
+    color: #999;
+}
+.recent-images a:hover figcaption {
+    text-decoration: none;
+    color: #333;
+}
+.divide-20 {
+    margin-bottom: 20px;
+}
+.btn-load {
+    padding: 5px 15px;
+}
+.table>thead>tr>td {
+    font-weight: bold;
+}
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+table .img-thumbnail {
+    height: 50px;
+}
+.table tr td:last-child {
+    text-align: center;
+}
+.footer {
+    height: 50px;
+    margin-top: -50px;
+    background: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #666;
+}
